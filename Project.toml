@@ -1,0 +1,13 @@
+name = "Ecorche"
+uuid = "be603bd5-5dae-4069-a58d-4d5400f288ac"
+authors = ["Yupei Qi <qiyupei@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
