@@ -1,5 +1,6 @@
 module Ecorche
 
-# Write your package code here.
+include(joinpath(@__DIR__, "..", "lib", "LibCarotid.jl"))
+using .LibCarotid
 
 end
