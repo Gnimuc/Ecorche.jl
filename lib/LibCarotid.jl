@@ -8,7 +8,7 @@ const carotid_context = Ptr{Cvoid}
 end
 
 function carotid_sanity_check()
-    ccall((:carotid_sanity_check, libcarotid), Cint, ())
+    ccall((:carotid_sanity_check, libcarotid), Bool, ())
 end
 
 function carotid_context_create(n_params, err)
