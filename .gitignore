@@ -1,1 +1,9 @@
 /Manifest.toml
+
+assets/samples/*
+!assets/samples/.gitkeep
+
+assets/models/*
+!assets/models/.gitkeep
+
+assets/template.obj

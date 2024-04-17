@@ -3,6 +3,11 @@ uuid = "be603bd5-5dae-4069-a58d-4d5400f288ac"
 authors = ["Yupei Qi <qiyupei@gmail.com>"]
 version = "0.1.0"
 
+[deps]
+MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
 [compat]
 julia = "1.10"
 
