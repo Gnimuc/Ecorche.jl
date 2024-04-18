@@ -13,6 +13,7 @@ if haskey(ENV, "CAROTID_INSTALL_PREFIX") &&
                                          __ARTIFACT_BINDIR, "libcarotid.$__DLEXT"))
 else
     using Carotid_jll
+    export Carotid_jll
 end
 
 include(joinpath(@__DIR__, "..", "lib", "LibCarotid.jl"))
